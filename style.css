@@ -405,7 +405,7 @@ p.low{
         width: 80vw;
         justify-content: space-between;
         position: absolute;
-        top: 90vh;
+        top: 85vh;
         background-color: #fff;
     }
     .top-nav{
@@ -414,7 +414,7 @@ p.low{
         width: 25vw;
         justify-content: space-between;
         position: absolute;
-        top: 90vh;
+        top: 85vh;
         left: 78vw;
         background-color: #fff;
     }
@@ -488,7 +488,7 @@ p.low{
         position: sticky;
         /* width: 100vw; */
         z-index: 3;
-        bottom: 0vh;
+        bottom: 5vh;
         left: 0;
         height: 10vh;
         border-radius: 5px 5px 0 0;
