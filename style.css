@@ -381,6 +381,7 @@ p.low{
         margin-top: 10vh;
         height: 100vh;
         overflow-x:auto;
+        margin-bottom: 0;
     }
     nav{
         position: absolute;
@@ -478,17 +479,18 @@ p.low{
     }
     .third{
         padding: 0;
-        margin-bottom: 60px;
+        margin-bottom: 0px;
     }
     .retairement-strat{
         border-radius: 60px 60px 0 0;
-        
+        margin-bottom:0;
     }
     .update-btn{
         position: sticky;
         /* width: 100vw; */
+        margin-bottom: 0;
         z-index: 3;
-        bottom: 0vh;
+        bottom: 0;
         left: 0;
         height: 10vh;
         border-radius: 5px 5px 0 0;
