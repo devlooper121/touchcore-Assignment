@@ -372,9 +372,9 @@ p.low{
     }
     body{
         height: 90vh;
-        position: relative;
+        /* position: relative; */
         z-index: 1;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
     main{
         flex-direction: column;
@@ -382,6 +382,8 @@ p.low{
         height: 100vh;
         overflow-x:auto;
         margin-bottom: 0;
+        height: 98vh;
+        /* position: relative; */
     }
     nav{
         position: absolute;
@@ -396,7 +398,7 @@ p.low{
         height: 10vh;
         width: 100vw;
         justify-content: end;
-        top: 0;
+        top: 0vh;
         position: absolute;
         background-color: #fff;
     }
@@ -406,7 +408,7 @@ p.low{
         width: 80vw;
         justify-content: space-between;
         position: absolute;
-        top: 100vh;
+        top: 90vh;
         background-color: #fff;
     }
     .top-nav{
@@ -415,7 +417,7 @@ p.low{
         width: 25vw;
         justify-content: space-between;
         position: absolute;
-        top: 100vh;
+        top: 90vh;
         left: 78vw;
         background-color: #fff;
     }
@@ -488,9 +490,10 @@ p.low{
     .update-btn{
         position: sticky;
         /* width: 100vw; */
+        top: 0;
         margin-bottom: 0;
         z-index: 3;
-        bottom: 0;
+        bottom: 50px;
         left: 0;
         height: 10vh;
         border-radius: 5px 5px 0 0;
